@@ -2,6 +2,7 @@ local TweenService = game:GetService('TweenService')
 local object = cre
 local tweenInfo = TweenInfo.new(2.5)
 
+
 while getfenv().RGB do
 local r, g, b = math.random(), math.random(), math.random()
 local goal = {Color = Color3.new(r, g, b)}
